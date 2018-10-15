@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: linear-gradient(to left top, #d4dae7, #F2F3F8) fixed;
+    font-family: sans-serif;
+}
+/*header start*/
+header {
+	background-color: #3D5B99;
+}
+.wrapper {
+	/*border: 3px solid green;*/
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+}
+
+/*label {
+	color: #ffffff;
+}*/
+.logo img {
+	/*border: 1px solid red;*/
+	width: 100%;
+	margin-top: 28px;
+	margin-left: 7px;
+	margin-bottom: 20px;
+}
+
+table {
+	width: 48%;
+	float: right;
+	color: white;
+	font-size: 14px;
+	margin-top: 23px;
+	padding-right: 158px;
+	/*border: 1px solid red;*/
+}
+#email, #pass, #lbtn {
+	margin-top: 4px;
+}
+#pass {}
+#lbtn {
+	background-color: #4166b2;
+	border: none;
+	border: 1px solid rgba(45, 45, 45,.5);
+	padding: 4px;
+}
+td button a {
+	text-decoration: none;
+	color: white;
+}
+/*header end*/
+/*banner start*/
+.banner-content {
+
+	width: 88%;
+    padding: 20px;
+	overflow: hidden;
+}
+.left-side {
+	width: 43%;
+	float: left;
+}
+.left-side h3 {
+	color: #0e3961;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.left-side img {
+	/*border: 1px solid red;*/
+}
+.right-side {
+	/*border: 1px solid green;*/
+	width: 43%;
+	float: right;
+}
+.right-side h1{
+	/*border: 1px solid red;*/
+	color: #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
+.right-side h4{ 
+	/*border: 1px solid red;*/
+	color: #333333;
+	margin-bottom: 10px;
+}		
+.right-side input {
+	padding: 6px;
+	border: none;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	/*margin-left: 5px;*/
+	font-size: 15px;
+}
+#first {
+	width: 40%;
+}
+#second{
+	width: 40%;
+	margin-left: 22px;
+	margin-bottom: 10px;
+}
+#mail1{
+	width: 89%;
+	margin-bottom: 10px;
+}
+#pw1 {
+	width: 89%;
+}
+.right-side h3 {
+	font-weight: normal;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+#bday {
+	width: 40%;
+	margin-bottom: 15px;
+}
+#fml {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#ml {
+	margin-left: 12px;
+}
+p {
+	color: grey;
+	margin-bottom: 15px;
+}
+.blue {
+	color: #356cdd;
+}
+.right-side button a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.right-side button{
+	border: none;
+	border: 1px solid grey;
+	border-radius: 8px;
+	background: #63a451;
+	color: white;
+	padding: 12px 50px;
+}
+.right-side button:hover {
+	background-color: #5782e0;
+}
+/*banner end*/
